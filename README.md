@@ -9,6 +9,9 @@ O sistema possui três aplicações:
 - **Cardápio**: micro-frontend com lista de pratos
 - **Pedido**: micro-frontend com itens adicionados
 
+## Comunicação
+A comunicação entre **Cardápio** e **Pedido** é feita por eventos globais do navegador (`window.dispatchEvent` e `window.addEventListener`).
+
 ## Como Rodar o Projeto
 
 É necessário **um terminal para cada aplicação**.
