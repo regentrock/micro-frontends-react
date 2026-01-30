@@ -1,0 +1,61 @@
+.pedido-container {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.pedido-container h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.pedido-vazio {
+  text-align: center;
+  color: #888;
+}
+
+.pedido-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pedido-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pedido-footer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn-limpar {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #e63946;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-limpar:hover {
+  background: #d62828;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .pedido-container {
+    margin: 20px;
+  }
+}
